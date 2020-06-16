@@ -11,7 +11,7 @@
 }
 .logo img{
     padding: 2px 2px;
-    width: 55%;
+    width: 40%;
     border: 2px solid white;
     border-radius: 17px;
 
@@ -24,6 +24,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+   
 }
 
 .nav-list{
@@ -67,7 +68,7 @@
     background-blend-mode: darken;
 }
 .firstSection{
-    height: 80vh;
+    height: 85vh;
    
 }
 .box-main{
@@ -194,3 +195,50 @@
     display: flex;
     justify-content: center;
 }
+.burger{
+display: none;
+position: absolute;
+cursor: pointer;
+right: 5px;
+top: 15px;
+
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1170px){
+    .nav-list{
+        flex-direction: column;
+
+    }
+    .navbar{
+        height: 450px;
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+#search{
+    width: 100%;
+}
+.burger{
+    display: block;
+
+}
+.h-nav-resp{
+    height: 56px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+
+
+
+}
+
