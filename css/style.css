@@ -69,6 +69,7 @@ html{
     border-radius: 9px;
 }
 
+
 .background{
     padding: 1px;
     background: rgba(0, 0, 0, 0.7) url('../img/bg.png');
@@ -76,8 +77,9 @@ html{
     background-blend-mode: darken;
 }
 
+
 .firstSection{
-    height: 85vh;  
+    height: 100%;  
 }
 
 .box-main{
@@ -218,4 +220,7 @@ html{
     height: 4px;
     margin: 5px 3px;
 }
+
+
+
 
