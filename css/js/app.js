@@ -16,20 +16,20 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 135,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#1e0b0b"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#000000"
+          "color": "#aa999"
         },
         "polygon": {
           "nb_sides": 5
@@ -37,7 +37,7 @@ particlesJS('particles-js',
         "image": {
           "src": "img/github.svg",
           "width": 100,
-          "height": 100,
+          "height": 100
         }
       },
       "opacity": {
@@ -63,13 +63,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#ede8e8",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 8,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -109,7 +109,7 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 67
         },
         "push": {
           "particles_nb": 4
